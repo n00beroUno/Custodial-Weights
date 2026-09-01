@@ -1,0 +1,16 @@
+# data is large / generated / licensed — never commit
+data/
+
+# checkpoints, sqlite, caches
+*.pt
+*.sqlite
+*.pyc
+__pycache__/
+*.egg-info/
+
+# virtualenvs
+.venv/
+venv/
+
+# editor / os
+.DS_Store
