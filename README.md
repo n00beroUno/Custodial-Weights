@@ -50,6 +50,8 @@ docs/
   architecture.md    how the mechanism works
   dataset.md         dataset provenance and expansion (read this)
   results.md         the measured numbers
+  GOALS.md           *why* this exists, and what it deliberately is not
+  DECISIONS.md       the choices we made, and the alternatives we rejected
 ```
 
 ## Why this exists
