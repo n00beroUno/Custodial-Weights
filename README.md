@@ -22,6 +22,20 @@ in about a minute; the full numbers, and their limits, are in
 it, is in the
 [paper](docs/paper.md).
 
+## Also on Hugging Face
+
+The project lives on both platforms, each carrying what it does best:
+
+- **Space** — a static demo of the mechanism, live in your browser:
+  https://huggingface.co/spaces/N00beroUno/custodial-weights-demo
+- **Model** — the `st4c3` checkpoint with an honest model card (a snapshot of
+  the dynamic state at rest, not a drop-in `from_pretrained`):
+  https://huggingface.co/N00beroUno/custodial-weights
+- **Dataset** — the expanded kinship graph with provenance:
+  https://huggingface.co/datasets/N00beroUno/custodial-weights-kinship
+
+See [HF.md](HF.md) for how the pieces map and the build notes.
+
 ## Quickstart
 
 Needs Python 3.10+ and PyTorch (`pip install -r requirements.txt`).
